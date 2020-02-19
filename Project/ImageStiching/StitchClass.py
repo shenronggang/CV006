@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 
 class Stitching:
-    def __init__(self,img1,img2, LIMIT):
+    def __init__(self, img1, img2, LIMIT):
         self.img1 = cv2.imread(img1)
         self.img2 = cv2.imread(img2)
         self.LIMIT = LIMIT
